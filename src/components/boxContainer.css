@@ -1,0 +1,10 @@
+.content-container {
+    width: 400px; /* Set a fixed or percentage width suitable for the design */
+    height: 400px; /* Let the height adjust based on content */
+    border: 2px black solid;
+    display: flex;
+    flex-direction: column; /* Ensures title and price stack */
+    padding: 4px;
+    margin: 10px;
+    box-sizing: border-box; /* Includes padding and border in width/height */
+}

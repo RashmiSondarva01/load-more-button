@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center-align items horizontally */
+    width: 1400px;
+    margin: 2px;
+    height: auto; /* Adjust height to fit content */
+    border: 1px solid red;
+    overflow: hidden;
+    gap: 10px; /* Add spacing between items */
+}
+
+button {
+    margin-top: 10px; /* Add spacing between last product and button */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
